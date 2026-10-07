@@ -8,13 +8,13 @@
 <circle cx="24" cy="20.0" r="6" fill="#3d3d3d"/>
 <circle cx="44" cy="20.0" r="6" fill="#3d3d3d"/>
 <circle cx="64" cy="20.0" r="6" fill="#3d3d3d"/>
-<text class="bar" x="410.0" y="24.0" text-anchor="middle" fill="#8b8b8b">dushyant@technova: ~ — zsh</text>
+<text class="bar" x="410.0" y="24.0" text-anchor="middle" fill="#8b8b8b">dushyant@technova: ~</text>
 <g>
 <text x="30.0" y="76" textLength="109.2" lengthAdjust="spacing"><tspan fill="#D4AF37">dushyant</tspan><tspan fill="#8b8b8b"> ~ </tspan><tspan fill="#8b8b8b">$ </tspan></text>
 <clipPath id="type1"><rect x="139.2" y="58" height="26" width="50.4"><set attributeName="width" to="0" begin="0s" end="0.45s"/><animate attributeName="width" values="0.0;8.4;16.8;25.2;33.6;42.0;50.4" calcMode="discrete" begin="0.45s" dur="0.45s" fill="freeze"/></rect></clipPath>
 <text x="139.2" y="76" textLength="50.4" lengthAdjust="spacing" clip-path="url(#type1)"><tspan fill="#ececec">whoami</tspan></text>
 </g>
-<g><set attributeName="opacity" to="0" begin="0s" end="1.15s"/><animate attributeName="opacity" from="0" to="1" begin="1.15s" dur="0.22s"/><text x="30.0" y="102" textLength="420.0" lengthAdjust="spacing"><tspan fill="#D4AF37">› </tspan><tspan fill="#ececec">CS undergrad · B.Tech CSE (AI/ML &amp; Data Science)</tspan></text></g>
+<g><set attributeName="opacity" to="0" begin="0s" end="1.15s"/><animate attributeName="opacity" from="0" to="1" begin="1.15s" dur="0.22s"/><text x="30.0" y="102" textLength="411.6" lengthAdjust="spacing"><tspan fill="#D4AF37">› </tspan><tspan fill="#ececec">CS undergrad, B.Tech CSE (AI/ML &amp; Data Science)</tspan></text></g>
 <g><set attributeName="opacity" to="0" begin="0s" end="1.27s"/><animate attributeName="opacity" from="0" to="1" begin="1.27s" dur="0.22s"/><text x="30.0" y="128" textLength="252.0" lengthAdjust="spacing"><tspan fill="#D4AF37">› </tspan><tspan fill="#ececec">AI/ML + software engineering</tspan></text></g>
 <g><set attributeName="opacity" to="0" begin="0s" end="1.39s"/><animate attributeName="opacity" from="0" to="1" begin="1.39s" dur="0.22s"/><text x="30.0" y="154" textLength="184.8" lengthAdjust="spacing"><tspan fill="#D4AF37">› </tspan><tspan fill="#ececec">full-stack / backend</tspan></text></g>
 <g><set attributeName="opacity" to="0" begin="0s" end="1.51s"/><animate attributeName="opacity" from="0" to="1" begin="1.51s" dur="0.22s"/><text x="30.0" y="180" textLength="344.4" lengthAdjust="spacing"><tspan fill="#D4AF37">› </tspan><tspan fill="#ececec">Tech Lead @ Technova, Sharda University</tspan></text></g>

@@ -1,0 +1,35 @@
+name: Contribution graph
+
+# Redraws assets/contributions.svg from the public contribution calendar once a day
+# and commits it only when it changed. The README shows the committed file, so the
+# graph is visible even before this workflow has ever run.
+
+on:
+  schedule:
+    - cron: "15 0 * * *" # daily, 00:15 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Render the graph
+        run: python3 .github/scripts/contributions.py "${{ github.repository_owner }}" assets/contributions.svg
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- assets/contributions.svg; then
+            echo "Graph unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/contributions.svg
+          git commit -m "Update contribution graph"
+          git push
